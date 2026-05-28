@@ -29,7 +29,7 @@ int main()
     {
         for(int j=0;j<c;j++)
         {
-            printf("%d",arr[i][j]);
+            printf("%d ",arr[i][j]);
         }
         printf("\n");
 

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-//count consonent program
+//count consonant program
 int main()
 {
     char c[100];

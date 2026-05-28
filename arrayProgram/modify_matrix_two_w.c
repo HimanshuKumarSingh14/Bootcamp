@@ -11,7 +11,7 @@ int main()
     {
         for(int j=0;j<c;j++)
         {
-            scanf("%d",&arr[i][j]);
+            scanf("%d",&arr[i][j]); 
         }
     }
     //negating the even rows
@@ -29,22 +29,25 @@ int main()
     for(int j=0;j<c;j++)
     {
         int top=0;
-        int bottom=r-1;
+        int bottom=r-1; 
         while(top<bottom)
         {
             int temp=arr[top][j];
             arr[top][j]=arr[bottom][j];
             arr[bottom][j]=temp;
+            top++;
+            bottom--;
         }
 
-    }
+    } 
  //printing the elements
  for(int i=0;i<r;i++)
  {
     for(int j=0;j<c;j++)
     {
-        printf("%d ",arr[i][j]);
+        printf("%d   ",arr[i][j]);
     }
+    printf("\n");
  }
 
     return 0;
