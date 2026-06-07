@@ -28,7 +28,7 @@ int main()
                 d2+=arr[i][j];
             }
         }
-    }
+    } 
     printf("Difference in the diagonals is %d",d1-d2);
     return 0;
 }

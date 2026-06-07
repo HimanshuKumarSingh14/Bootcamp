@@ -2,6 +2,7 @@
 int main()
 {
     int n;
+    printf("Enter the number elements\n");
     scanf("%d",&n);
     int arr[n];
     int prefix[n];
