@@ -35,7 +35,7 @@ int main()
         continue;
         for(int j=0;j<c;j++)
         {
-            cout<<arr[i][j];
+            cout<<arr[i][j]<<" ";
         }
         cout<<endl;
     }
